@@ -1,0 +1,70 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 90%;
+}
+body{
+    background-image: linear-gradient(to right, #4F735C, #6126F4 );
+}
+section{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: 1px solid gray;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+width: 70%;
+margin: auto;
+margin-top: 8rem;
+
+
+& div{
+    margin: 1rem;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & #copy-code{
+        margin-top: 1rem;
+        background-color: rgb(255, 162, 0);
+        cursor: pointer;
+        padding: 4px 10px 4px 10px;
+        text-align: center;
+        
+     
+    }
+}
+& div:last-child{
+    display: flex;
+   flex-direction: column;
+   & #gradient-code{
+    background-color: rgb(176, 145, 105);
+    padding:.3rem;
+    border-radius: 5px;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+
+}
+}
+}
+.btn:first-child{
+background-color: rgb(253, 119, 119);
+border: none;
+padding: 5px;
+}
+.btn:last-child{
+background-color: rgb(119, 226, 253);
+border: none;
+padding: 5px;
+
+}
+.btn{
+    cursor: pointer;
+    margin:0 10px 0 10px;
+}
+
